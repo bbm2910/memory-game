@@ -5,7 +5,7 @@ const Card = ({ id, onCardClick }) => {
 
 	useEffect(() => {
 		const fetchImageData = async () => {
-			const imageUrl = `src/assets/image${id}.png`;
+			const imageUrl = `/memory-game/src/assets/image${id}.png`;
 
 			setCardData({
 				imageUrl: imageUrl,
