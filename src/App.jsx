@@ -10,7 +10,7 @@ const App = () => {
 				<Navbar></Navbar>
 				<div className='content'>
 					<Routes>
-						<Route path='/' element={<HomePage />} />
+						<Route path='/memory-game/' element={<HomePage />} />
 						<Route
 							path='/memory-game/instructions'
 							element={<Instructions />}
