@@ -20,7 +20,7 @@ const Instructions = () => {
 			</p>
 			<h3>Winning</h3>
 			<p>The player wins when they have guessed all the cards.</p>
-			<Link to='/'>Go back to Main Page</Link>
+			<Link to='/memory-game'>Go back to Main Page</Link>
 		</div>
 	);
 };

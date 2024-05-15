@@ -72,7 +72,7 @@ const HomePage = () => {
 	return (
 		<>
 			<div className='instructions-link'>
-				<Link to='/instructions'>How to play</Link>
+				<Link to='/memory-game/instructions'>How to play</Link>
 				<select
 					onChange={(e) => initializeCardDeck(e.target.value)}
 					defaultValue='easy'
