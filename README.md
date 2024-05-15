@@ -1,8 +1,6 @@
 # `React` memory_game app
 ![Screenshot](Screenshot.png)
 
-## [Demo](https://bbm2910.github.io/memory-game/)
-
 ## How to play
 - The goal is to score points by clicking on different cards.
 - On each turn, a player can click on any card to reshuffle all cards.
