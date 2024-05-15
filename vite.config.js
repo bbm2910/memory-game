@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/memory-game/"
-})
+  base: "/memory-game/",
+  build: {
+    outDir: 'dist', // This is the default, but you can adjust it if needed
+    assetsDir: 'assets' // This is where Vite will output static assets
+  }
+});
